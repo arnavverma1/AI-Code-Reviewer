@@ -1,0 +1,88 @@
+/* Dark Mode Theme */
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  text-align: center;
+  background: #252526;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ff6b81;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Upload Section */
+.upload-section {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button {
+  background: linear-gradient(45deg, #ff6b81, #ff4757);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff4757, #ff6b81);
+  transform: scale(1.05);
+}
+
+/* Error Message */
+.error-message {
+  color: #ff4757;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Feedback Section */
+.feedback-section {
+  background: #333;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.feedback-section h2 {
+  color: #ffcc00;
+}
+
+pre {
+  background: #2d2d2d;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
